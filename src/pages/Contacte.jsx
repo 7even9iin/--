@@ -41,7 +41,7 @@ export const Contacte = (props) => {
         <hr />
         <YMaps>
           <div>
-            <Map state={mapState} width="100%" height={400}>
+            <Map state={mapState} width="100%" height={500}>
               <Placemark geometry={placemarkGeometry} properties={placemarkProperties} />
             </Map>
           </div>

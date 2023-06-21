@@ -26,7 +26,7 @@ const ShowOrders = (props) => {
         ))}
       </div>
       <div className='d-flex justify-content-between'>
-        <h5>Suma: {summ}$</h5>
+        <h5>Suma: {new Intl.NumberFormat().format(summ)}$</h5>
         <div style={{ marginTop: -10 }}>
           <Button onClick={() => setShow(true)} variant='danger'>Comanda acum</Button>
         </div>
@@ -56,6 +56,10 @@ const ShowOrders = (props) => {
             </Form.Group>
             <Form.Group className="mb-3" controlId="formGroupEmail">
               <Form.Label>Adresa</Form.Label>
+              <Form.Control required type="email" placeholder="introduceti adresa" />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="formGroupEmail">
+              <Form.Label>Numarul de telefon</Form.Label>
               <Form.Control required type="email" placeholder="introduceti adresa" />
             </Form.Group>
           </Form>
