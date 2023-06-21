@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Scaun Gri",
+      "img": "chair-grey.webp",
+      "desc": "Scaunul Brook are un design smart si minimalist, se integreaza perfect in livingul dumneavoastra oferindu-i o nota de eleganta.",
+      "category": "chairs",
+      "price": "49.99"
+    },
+    {
+      "id": 2,
+      "title": "Scaun Alb",
+      "img": "chair-white.jpg",
+      "desc": "Elegant si atragator, acest scaun este potrivit in sufrageriile clasice. Spatarul inalt tapitat cu stofa aduce un plus de stil.",
+      "category": "chairs",
+      "price": "49.99"
+    },
+    {
+      "id": 3,
+      "title": "Sofa",
+      "img": "sofa.jpg",
+      "desc": "LM-58 Color este o canapea extensibila cu cadru din placaj si lemn, transformandu-se cu usurinta in pat. tapitata cu stofa rezistenta si usor de intretinut.",
+      "category": "chairs",
+      "price": "499.99"
+    },
+    {
+      "id": 4,
+      "title": "Masa",
+      "img": "table.jpg",
+      "desc": "Masa moderna pentru camera adolescenti Colectia Modera se remarca printr-un design in stilul „modern”.",
+      "category": "chairs",
+      "price": "149.99"
+    },
+    {
+      "id": 5,
+      "title": "Lumina de perete",
+      "img": "wall-light.webp",
+      "desc": "Putere: 10.5 W, 630 lm Culoare temperatura: 3000K Grad de protecţie: IP20 Sursa de curent: 220 V Dimensiuni: 1000×40 mm",
+      "category": "chairs",
+      "price": "99.99"
+    },
+    {
+      "id": 6,
+      "title": "Sofa",
+      "img": "sofa.jpg",
+      "desc": "LM-58 Color este o canapea extensibila cu cadru din placaj si lemn, transformandu-se cu usurinta in pat. tapitata cu stofa rezistenta si usor de intretinut.",
+      "category": "chairs",
+      "price": "499.99"
+    }
+  ]
+}

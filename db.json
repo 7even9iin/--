@@ -1,5 +1,5 @@
 {
-  "products" : [
+  "products": [
     {
       "id": 1,
       "title": "Scaun Gri",
@@ -39,6 +39,62 @@
       "desc": "Putere: 10.5 W, 630 lm Culoare temperatura: 3000K Grad de protecţie: IP20 Sursa de curent: 220 V Dimensiuni: 1000×40 mm",
       "category": "chairs",
       "price": "99.99"
+    },
+    {
+      "id": 6,
+      "title": "Set N-5 ZB5",
+      "img": "set.jpg",
+      "desc": "Modelul simplu și practic odăii tale.O canapea modestă, colorată și rezistentă poate fi și accesibilă în același timp.Canapeaua de model N5-ZB5 se extinde în 3 poziții, creând un spațiu potrivit pentru somn,un aspect pozitiv îl are și prezența lădiței de depozitare,n",
+      "category": "chairs",
+      "price": "699.99"
+    },
+    {
+      "id": 7,
+      "title": "Antreu Veruta 5",
+      "img": "antreu.jpg",
+      "desc": "Antreu Veruta 5 este un antreu elegant și sofisticat, creat cu grijă și atenție la detalii. Cu o estetică contemporană și un design rafinat, acest antreu impresionează prin eleganță și stil. Mobilierul de calitate superioară și finisajele luxuriante adaugă un aer de rafinament și bun gust, creând o atmosferă primitoare și primitor. Luminile subtile și jocurile de culori subliniază armonios elementele de design, oferind un aspect plin de grație.",
+      "category": "chairs",
+      "price": "799.99"
+    },
+    {
+      "id": 8,
+      "title": "Living",
+      "img": "living.jpg",
+      "desc": "Livingul este inima casei, un spațiu vibrant și plin de viață în care membrii familiei se adună pentru a petrece timp împreună și a se relaxa. Cu un design confortabil și funcțional, livingul oferă un echilibru perfect între estetică și utilitate. Mobilierul confortabil și stilat, precum canapelele și fotoliile moi, creează o atmosferă primitoare și invită la relaxare. Elementele decorative precum pernele, perdelele și covoarele adaugă culoare și personalitate, transformând livingul într-un spațiu plin de caracter.",
+      "category": "chairs",
+      "price": "299.99"
+    },
+    {
+      "id": 9,
+      "title": "Colțar Milan 2SG",
+      "img": "coltar.jpg",
+      "desc": "Un colțar este o piesă de mobilier care se potrivește perfect într-un colț al unei camere. Acesta are forme variate și poate fi realizat din diverse materiale, cum ar fi lemn, piele, țesături sau combinații între acestea. Colțarele sunt proiectate să ofere un spațiu confortabil pentru a te relaxa, citi sau socializa. Acestea pot avea diferite dimensiuni și configurații, de la colțare mai mici potrivite pentru un singur loc până la colțare mari și spațioase care pot găzdui întreaga familie.",
+      "category": "chairs",
+      "price": "999.99"
+    },
+    {
+      "id": 10,
+      "title": "Pat Domino",
+      "img": "pat.jpg",
+      "desc": "Patul Domino este o piesă de mobilier esențială în dormitor, care combină confortul și stilul elegant într-un mod remarcabil. Cu un design contemporan și linii curate, Patul Domino adaugă o notă de rafinament și eleganță în orice cameră.Fabricat din materiale de înaltă calitate, cum ar fi lemnul solid sau MDF-ul rezistent, Patul Domino oferă durabilitate și stabilitate în timpul utilizării. Suprafața patului este finisată cu atenție, creând un aspect neted și plăcut la atingere.",
+      "category": "chairs",
+      "price": "1199.99"
+    },
+    {
+      "id": 11,
+      "title": "Scaun Malibu",
+      "img": "gradina.jpg",
+      "desc": "Scaunul Malibu este o piesă de mobilier elegantă și confortabilă, proiectată pentru a oferi o experiență plăcută și relaxantă în orice spațiu. Cu un design modern și atenție la detalii, Scaunul Malibu adaugă un plus de stil și sofisticare în orice cameră.Construit cu materiale de înaltă calitate, cum ar fi lemnul și metalul rezistent, Scaunul Malibu asigură durabilitate și stabilitate în timpul utilizării. Caracterizat printr-un cadru solid și bine construit, scaunul este proiectat pentru a rezista în timp și a face față utilizării zilnice.",
+      "category": "chairs",
+      "price": "499.99"
+    },
+    {
+      "id": 12,
+      "title": "Șezlong Laguna",
+      "img": "Sezlong.jpg",
+      "desc": "Șezlongul Laguna este o piesă de mobilier perfectă pentru relaxare și odihnă în mediul exterior. Cu un design atrăgător și funcționalitate excelentă, acesta adaugă un plus de eleganță și confort în grădini, terase sau zone de piscină.Șezlongul Laguna este construit din materiale durabile și rezistente la condițiile meteo. Rama sa poate fi realizată din aluminiu sau oțel acoperit cu un strat de protecție, care îi conferă rezistență și durabilitate în fața factorilor externi. Scaunul este prevăzut cu un material textil de calitate superioară, cum ar fi ratanul sau plasa textilă, care rezistă la razele UV și este ușor de întreținut.",
+      "category": "chairs",
+      "price": "199.99"
     }
   ]
 }

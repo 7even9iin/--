@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Items from "./components/Items";
 import axios from 'axios';
+import { Route, Routes } from "react-router-dom";
+import { Contacte } from "./pages/Contacte";
+import { DespreNoi } from "./pages/DespreNoi";
+import { Home } from "./pages/Home";
+import { PaginaCuDetalii } from "./pages/PaginaCuDetalii";
 
 function App() {
   const [orders, setOrders] = useState([]);
@@ -10,7 +12,7 @@ function App() {
 
   useEffect(() => {
     axios('http://localhost:3001/products')
-    .then(items => setItems(items.data))
+      .then(items => setItems(items.data))
   }, [])
 
   const addToOrder = (item) => {
@@ -27,10 +29,13 @@ function App() {
 
   return (
     <div className="wrapper">
-      <Header orders={orders} />
-      <Items items={items} onAdd={addToOrder} />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home orders={orders} setOrders={setOrders} items={items} addToOrder={addToOrder} />} />
+        <Route path="DespreNoi" element={<DespreNoi orders={orders} />} />
+        <Route path="Contacte" element={<Contacte orders={orders} />} />
+        <Route path="detalii/:title/:desc/:img/:price" element={<PaginaCuDetalii orders={orders} />} />
+      </Routes>
+    </div >
   );
 }
 
